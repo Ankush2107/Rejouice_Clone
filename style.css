@@ -36,6 +36,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translate(-50%, -50%);
 }
 
 #page1 #cursor h5 {
@@ -86,4 +87,10 @@ html, body {
 
 #page1-content h1 span {
     font-family: rejouice;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
 }
